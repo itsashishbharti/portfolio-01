@@ -1,0 +1,10 @@
+body{
+		margin: 0px auto;
+		background-color: #eee;
+		font-family:arial;
+		position: relative;
+	}
+
+	ul{
+		list-style-type:none;
+	}
