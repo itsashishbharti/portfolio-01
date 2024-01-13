@@ -11,13 +11,11 @@ nav{
 		height: 50px;
 		display:flex;
 		justify-content:space-evenly;
-		list-style-type:none;
 		margin: 0 auto;
 		padding: 15px;
 	}
 	
 	li{
-		display-inline;
 		align-items: center;
 	}
 	
