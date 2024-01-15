@@ -1,0 +1,35 @@
+@media screen and (max-width: 425px){
+	#Presentation > h2{
+		width:385px;
+	}
+	
+	#Presentation > div{
+		width: 385px;
+		flex-direction: column;
+	}
+	
+	div.presentation-video{
+		height: 218px;
+		width: 350px;
+		margin: 0 auto;
+	}
+	
+	div.presentation-video > img:first-child{
+		height: 218px;
+		width: 350px;
+	}
+
+	div.presentation-video > img:last-child{
+		top: 79px;
+		right: 145px;
+	}
+
+	#Presentation > div > div > div:last-child >p{
+		width: 385px;
+	}
+	
+	#Presentation > div > div > div:last-child{
+		    width: 310px;
+		margin-left: 18px;
+	}
+}
