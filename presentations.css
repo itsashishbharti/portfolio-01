@@ -1,0 +1,44 @@
+
+        #Presentation > h2
+        {
+	   color: gray;
+            width: 1000px;
+            margin: 20px auto;
+        }
+        #Presentation > div
+        {
+            display: flex;
+            gap: 40px;
+            width: 1000px;
+            margin: 0 auto;
+        }
+        #Presentation 
+        {
+            margin: 50px 0;
+        }
+        #Presentation h4
+        {
+            margin: 10px 10px 10px 0;
+        }
+        div.presentation-video
+        {
+            height: 300px;
+            width: 480px;
+            position: relative;
+        }
+        div.presentation-video > img:last-child
+        {
+            position: absolute;
+            top: 120px;
+            right: 210px;
+        }
+        #Presentation > div > div > div:last-child
+        {
+            padding: 20px;
+            background-color: white;
+            height: 60px;
+        }
+	
+	 #Presentation > div > div > div:last-child >p{
+		color: darkgray;
+	}
