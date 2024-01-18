@@ -1,0 +1,82 @@
+
+        #presentation > h2
+        {
+	   color: var(--primary-font-color);
+            width: 1000px;
+            margin: 20px auto;
+        }
+        #presentation > div
+        {
+            display: flex;
+            gap: 40px;
+            width: 1000px;
+            margin: 0 auto;
+        }
+        #presentation 
+        {
+            margin: 50px 0;
+        }
+        #presentation h4
+        {
+		color: var(--primary-font-color);
+            margin: 10px 10px 10px 0;
+        }
+        div.presentation-video
+        {
+            height: 300px;
+            width: 480px;
+            position: relative;
+        }
+        div.presentation-video > img:last-child
+        {
+            position: absolute;
+            top: 120px;
+            right: 210px;
+        }
+        #presentation > div > div > div:last-child
+        {
+            padding: 20px;
+            background-color: var(--button-background);
+            height: 60px;
+        }
+	
+	 #presentation > div > div > div:last-child >p{
+		color: var(--secondary-font-color);
+	}
+
+
+@media screen and (max-width: 425px){
+	#presentation > h2{
+		width:385px;
+	}
+	
+	#presentation > div{
+		width: 385px;
+		flex-direction: column;
+	}
+	
+	div.presentation-video{
+		height: 218px;
+		width: 350px;
+		margin: 0 auto;
+	}
+	
+	div.presentation-video > img:first-child{
+		height: 218px;
+		width: 350px;
+	}
+
+	div.presentation-video > img:last-child{
+		top: 79px;
+		right: 145px;
+	}
+
+	#presentation > div > div > div:last-child >p{
+		width: 385px;
+	}
+	
+	#presentation > div > div > div:last-child{
+		    width: 310px;
+		margin-left: 18px;
+	}
+}
