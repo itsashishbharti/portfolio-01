@@ -1,8 +1,8 @@
 	footer{
-		height: 30px;
+		height: 60px;
 		display: flex;
 		flex-direction:row;
-		justify-content:space-between;
+		justify-content:center;
 	}
 	
 	footer>div>ul{
@@ -12,7 +12,7 @@
 		font-weight: bold;
 	}
 	footer>div{
-		width: 500px;
+		width: 550px;
 		text-align:center;
 	}
 
@@ -26,6 +26,7 @@
 		width: 385px;
 		display:flex;
 		flex-direction:column;
+		margin-left:20px;
 		
 	}
 	
@@ -38,7 +39,7 @@
 
 	footer>div{
 		width: 385px;
-		height: 0px;
+		height: 30px;
 	}
 
 }
