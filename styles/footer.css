@@ -7,17 +7,21 @@
 	
 	footer>div>ul{
 		list-style-type:none;
-		color: gray;
-		gap:20px;
+		gap:50px;
 		font-weight: bold;
+		display:flex;
 	}
 	footer>div{
 		width: 550px;
 		text-align:center;
 	}
-
 	footer>div>h4{
-		color: gray;
+		color: #888;
+	}
+	a{
+		text-decoration:none;
+		color: #666;
+		font-size:18px;
 	}
 	
 @media screen and (max-width: 425px){
@@ -26,7 +30,6 @@
 		width: 385px;
 		display:flex;
 		flex-direction:column;
-		margin-left:20px;
 		
 	}
 	
@@ -34,12 +37,18 @@
 		list-style-type: none;
 		color: gray;
 		gap:10px;
-		font-weight: bold;
+		font-weight: 600;
+		margin-top:0px;
 	}
-
 	footer>div{
 		width: 385px;
 		height: 30px;
+	}
+	
+	footer>div:last-child > h4{
+		color:#888;
+		font-weight:400;
+		margin-top:8px;
 	}
 
 }
